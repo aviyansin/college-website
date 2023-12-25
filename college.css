@@ -1,0 +1,180 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.header nav.navbar.navbar-expand-lg {
+    background-color: #9c3743;
+    padding: 15px;
+}
+.logo
+{
+    width: 200px;
+    height: 45px;
+    padding-left: 20px;
+
+}
+.header a.navbar-brand {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.logo img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+/* code two start here */
+#backcolor
+{
+    background-color:#EAD196;
+    padding: 50px;
+    padding-bottom: 100px;
+}
+
+.our {
+    width: 281px;
+    background-color: #c71227;
+    margin: 30px auto;
+    border: 1px solid gray;
+    box-shadow: 4px 5px 15px;
+    border-radius: 4px 20px;
+}
+.our h1
+{
+    color:white;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;   
+}
+
+.our:hover
+{
+    transition:  ease;
+    background-color:#163020;
+    
+}
+
+.background
+{ 
+    width: 100%;
+    padding: 20px;
+    background-image: url(woman-6784555_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.listbox {
+
+ background: #9c3743b4;
+    text-align: center;
+    border: 2px solid gray;
+    border-radius:20px 20px;
+    box-shadow:10px 10px 15px black;
+}
+.listbox p
+{
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.spaceone hr
+{
+    padding: 5px 0px ;
+    margin-top: 0px;
+}
+
+.course {
+    width: 500px;
+    padding-top: 20px ;  
+     margin: auto;
+    box-shadow: 4px 5px 15px ;
+    border-radius: 4px 20px;
+}
+.course h1 {
+
+    color: white;
+    text-align: center;
+
+}
+.allcourse
+{   width:500px; 
+    color: white;
+    background-color: #964848bd;
+    text-align: center;
+    margin: auto;
+}
+.nav-item a
+{
+ color:white;
+ font-size: 18px;
+}
+ /* code 4 start here */
+
+.piximage
+{    
+    border: 5px solid black;
+    border-radius: 10px 30px;
+    padding: 0px 20px;
+    box-shadow:10px 10px 15px #BF3131;
+}
+
+/* map and form section */
+section#backcolor\ new {
+    background-color: #F3EDC8;
+}
+.mapform iframe
+{
+    width: 100%;
+    padding: 0px 20px;
+}
+
+/* footer */
+
+footer.text-center.text-lg-start.bg-body-tertiary.text-muted {
+    background-color:#7a2832;
+    
+}
+.row.mt-3 {
+    color: aliceblue;
+}
+span {
+    color: aliceblue;
+}
+
+.fa-facebook-f:before {
+    color: blue;
+    content: "\f39e";
+}
+.fa-twitter:before {
+    content: "\f099";
+    color: blue;
+}
+
+.fa-instagram:before {
+    color: red;
+    content: "\f16d";
+}
+.fa-linkedin:before {
+    content: "\f08c";
+    color: blue;
+}
+/* media  */
+@media all and (max-width: 420px){
+    .our{
+        width: 100%;
+        padding: 10px;
+        margin: 10px 10px;
+    }
+    .our h1{
+        font-size: 30px;
+    }
+
+    
+}
